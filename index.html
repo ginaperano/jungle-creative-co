@@ -21,8 +21,9 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!--Customizer Styles + Scripts-->
     <link
-        href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;700&family=Playfair+Display:ital,wght@1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Montserrat:wght@500;600;700;800;900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <!--Body-->
@@ -41,13 +42,13 @@
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a href="work.html" class="nav-link">Work</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="about.html" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
                         <a href="services.html" class="nav-link">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="mission.html" class="nav-link">Mission</a>
                     </li>
                     <li class="nav-item">
                         <a href="team.html" class="nav-link">Team</a>
@@ -62,6 +63,67 @@
             </div>
         </div>
     </nav>
+    <!--Showcase Slider-->
+    <section id="showcase">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!--Carousel Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!--Carousel Inner-->
+            <div class="carousel-inner">
+                <!--Carousel Image 1-->
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                            <h1 class="display-3">Heading One</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel
+                                ullam deleniti
+                                reiciendis ratione
+                                quod aliquid inventore vero perspiciatis.</p>
+                            <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Carousel Image 2-->
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block mb-5">
+                            <h1 class="display-3">Heading Two</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel
+                                ullam deleniti
+                                reiciendis ratione
+                                quod aliquid inventore vero perspiciatis.</p>
+                            <a href="#" class="btn btn-danger btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Carousel Image 3-->
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                            <h1 class="display-3">Heading Three</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel
+                                ullam deleniti
+                                reiciendis ratione
+                                quod aliquid inventore vero perspiciatis.</p>
+                            <a href="#" class="btn btn-danger btn-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Carousel Controls-->
+            <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
 
 
     <!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
